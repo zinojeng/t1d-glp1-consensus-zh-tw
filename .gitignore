@@ -7,4 +7,5 @@
 .source-cache/
 tmp/
 site-preview/
-
+.metadata_cache/
+.claude/

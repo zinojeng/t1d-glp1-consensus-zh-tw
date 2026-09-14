@@ -1,0 +1,25 @@
+# 來源台帳（Source Ledger）
+
+更新日：2026-09-14。此台帳優先列出原始論文、試驗登錄及主管機關資料；數值引用均回到原始全文或正式摘要核對。
+
+| ID | 來源 | 設計／用途 | 可支持的主張 | 主要限制 |
+|---|---|---|---|---|
+| S01 | Garg SK, et al. *Diabetes Technology & Therapeutics*. 2026. [DOI](https://doi.org/10.1177/15209156261449879) | 國際 expert consensus；文獻檢索截至 2026-02-09 | 安全起始、胰島素調整、CGM／ketone、GI、眼底、營養、妊娠、圍手術期之建議；ATTD、IDF-Europe、AACE、Breakthrough T1D、ISPAD、ADCES endorsement | 非臨床指引 RCT；多數 T1D 證據為回溯／觀察性；A/B/C/E 定義未在文內交代；兩處內部不一致見衝突台帳 |
+| S02 | Pasqua MR, et al. *Nature Medicine*. 2025. [PubMed](https://pubmed.ncbi.nlm.nih.gov/39794615/) / [全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC12003151/) | n=28、雙盲 crossover RCT；semaglutide + AID | TIR 相對 placebo 增加 4.8 percentage points；未增加 TBR；無 DKA／severe hypoglycemia | 24 人完成；短期；semaglutide 期有 2 人 recurrent euglycemic ketosis without acidosis |
+| S03 | Shah VN, et al. ADJUST-T1D. *NEJM Evidence*. 2025. [DOI](https://doi.org/10.1056/EVIDoa2500173) | n=72、26 週、雙盲 RCT；BMI ≥30、皆用 AID | 複合終點 36% vs 0%；HbA1c、TIR、體重均改善 | 樣本小、只納入 obesity 與 AID 使用者；不是長期安全／硬終點試驗 |
+| S04 | Snaith JR, et al. *Diabetes Care*. 2026. [全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC12719702/) / [DOI](https://doi.org/10.2337/dc25-2379) | n=24、12 週 phase 2 RCT；tirzepatide | 體重組間差 −8.7 kg；HbA1c 約 −0.4%；TDD 顯著下降 | 22 人完成；排除近期 DKA／嚴重低血糖、gastroparesis、部分眼病與腎病；不可作廣泛安全保證 |
+| S05 | Purcell A, et al. *Diabetes, Obesity and Metabolism*. 2026. [全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC12673429/) / [DOI](https://doi.org/10.1111/dom.70188) | 13 個 RCT meta-analysis；成人 T1D、BMI ≥25、≥12 週 | 平均體重 −4.31 kg、HbA1c −0.25%、TDD −9.24 U/day；hypoglycemia OR 1.34、GI AE 增加 | 藥物世代、劑量與試驗設計異質；較舊 liraglutide 試驗占重要比重 |
+| S06 | Ahmad M, et al. OCULUS. *JAMA Internal Medicine*. 2026. [全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC12993733/) / [DOI](https://doi.org/10.1001/jamainternmed.2026.0027) | n=60 RCT；procedure 前 continue vs hold GLP-1/GIP therapy | clinically significant retained gastric volume／視野不佳：25.0% vs 3.1%，P=.003 | 不是 T1D 專屬研究；無 aspiration 事件但無力檢驗罕見傷害；24 h clear-liquid subgroup 為探索性 |
+| S07 | Xu Y, et al. *Nature Medicine*. 2026. [全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC13243945/) / [DOI](https://doi.org/10.1038/s41591-026-04274-0) | 174,678 人之 target-trial emulation | GLP-1 RA 使用與較低 5 年 MACE（HR 0.85）及 ESRD（HR 0.81）相關 | 觀察性研究；即使 propensity matching 仍可能有 residual confounding、healthy-user／prescriber-selection bias；不能推論因果 |
+| S08 | Shah VN, et al. 2024 AID consensus. [全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC11571606/) | expert consensus | GLP-1 RA 與 AID 併用的早期臨床框架 | 早於 2025–2026 新 RCT；仍屬專家共識 |
+| S09 | SURPASS-T1D-1 [NCT06914895](https://clinicaltrials.gov/study/NCT06914895)；SURPASS-T1D-2 [NCT06962280](https://clinicaltrials.gov/study/NCT06962280) | phase 3 tirzepatide RCT，登錄資料 | 截至更新日均尚無結果；可說明未來證據缺口正在補足 | 不得用 ongoing trial 支持療效或安全結論 |
+| S10 | U.S. FDA [Wegovy label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/218316Orig1s000lbl.pdf)、[Zepbound label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/217806Orig1s020lbl.pdf)；Taiwan FDA [Mounjaro safety information](https://www.fda.gov.tw/tc/includes/GetFile.ashx?cid=44254&id=f638289376695123554) | 主管機關標示 | obesity／其他核准適應症與「治療 T1D」適應症必須分開表述 | 標示會更新；處方前必須查當地最新版仿單與給付規則 |
+
+## 本地來源與完整性
+
+- 原始 PDF SHA-256：`93d4670396159934c2c509aef1ca88de06f28dd9f1e3bb7c1751904b51c42352`
+- 隨附 Markdown SHA-256：`3394682fe6401f7deae02a1a66ae94388b5e29b8848ab924855b699790ae6aad`
+- 合法取得之 open-access XML／HTML 全文保存在 repo 外的 `source_cache/fulltext/`，避免再散布全文或誤將來源材料納入 Git。
+- OpenEvidence literature MCP 因本機未連接已登入的 browser relay 而無法完成查詢；本版改以 publisher、PubMed／PubMed Central、ClinicalTrials.gov 與主管機關原始資料交叉核對。
+- LlamaParse：以 official `llama-cloud` SDK 的 agentic tier 完成 23 頁解析；輸出 19,771 words，SHA-256 `becc81695c28dc81200b865f627e8b85d446b86cd14243d4dbe8b0bb5cd348f8`。已抽查標題、Table 2、兩個 C-01 數字、OCULUS 段落與 references；結果保存在 repo 外 `source_cache/llamaparse/`。
+- 不使用 Sci-Hub 或其他未授權來源。
