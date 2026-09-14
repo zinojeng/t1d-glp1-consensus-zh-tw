@@ -197,6 +197,85 @@
 .report-footer a { color: #d1dce4; font-size: 13px; text-decoration: none; }
 .report-footer a:hover { color: var(--aqua); }
 
+/* Original-article deep reading */
+.source-hero { background: linear-gradient(128deg, #101b2a 0%, #243b50 72%, #76531e 145%); }
+.source-page .report-toc { width: 220px; }
+.source-page .report-layout { grid-template-columns: 220px minmax(0, 1fr); }
+.source-page .report-toc ol { padding-left: 22px; }
+.source-page .report-toc li { padding-block: 2px; }
+.source-page .report-toc a { font-size: 12px; }
+.source-locator { max-width: none !important; margin-top: 24px; padding-top: 12px; color: #64717c; border-top: 1px dotted var(--line-dark); font: 600 11px/1.55 "IBM Plex Sans", sans-serif; }
+.source-facts, .fact-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; overflow: hidden; margin-block: 27px; border: 1px solid var(--line); border-radius: 8px; background: var(--line); }
+.source-facts div, .fact-grid article { padding: 19px; background: #fff; }
+.source-facts b, .source-facts span, .fact-grid b, .fact-grid span { display: block; }
+.source-facts b, .fact-grid b { color: var(--teal-dark); font: 700 15px/1.35 "IBM Plex Sans", sans-serif; }
+.source-facts span, .fact-grid span { margin-top: 6px; color: var(--muted); font-size: 12px; line-height: 1.55; }
+.data-strip { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-block: 28px; }
+.data-strip article { padding: 21px; border-top: 3px solid var(--coral); background: #fff; }
+.data-strip b, .data-strip span { display: block; }
+.data-strip b { color: var(--coral); font: 700 25px/1.2 "IBM Plex Sans", sans-serif; }
+.data-strip span { margin-top: 7px; color: var(--muted); font-size: 12px; line-height: 1.55; }
+.source-timeline { position: relative; margin: 30px 0; padding: 0; list-style: none; }
+.source-timeline::before { content: ""; position: absolute; top: 8px; bottom: 10px; left: 99px; width: 2px; background: var(--line-dark); }
+.source-timeline li { position: relative; display: grid; grid-template-columns: 83px 1fr; gap: 35px; padding-bottom: 26px; }
+.source-timeline li::before { content: ""; position: absolute; top: 7px; left: 94px; width: 10px; height: 10px; border: 3px solid #f5f4f0; border-radius: 50%; background: var(--teal); }
+.source-timeline time { color: var(--coral); font: 700 12px/1.6 "IBM Plex Sans", sans-serif; text-align: right; }
+.source-timeline h3 { margin: 0 0 5px; font-size: 17px; }
+.source-timeline p { margin: 0; color: var(--muted); font-size: 13px; }
+.organ-map { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-block: 28px; }
+.organ-map article { padding: 25px; border: 1px solid var(--line); border-top: 4px solid #d87892; background: #fff; }
+.organ-map article:last-child { border-top-color: #e59b5b; }
+.organ-map h3 { display: inline; color: var(--ink); font-size: 14px; }
+.organ-map h3::after { content: " — "; }
+.organ-map article > p:not(.evidence-label) { display: inline; color: var(--muted); font-size: 13px; }
+.organ-map article > p:not(.evidence-label)::after { content: ""; display: block; margin-bottom: 11px; }
+.original-table { min-width: 1180px; }
+.original-table th:nth-child(1) { width: 15%; }
+.original-table td[rowspan] { background: #f7f8f6; }
+.pediatric-evidence { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-block: 26px; }
+.pediatric-evidence article { padding: 22px; border-left: 3px solid var(--teal); background: #fff; }
+.pediatric-evidence b { color: var(--teal-dark); font-size: 14px; }
+.pediatric-evidence p { margin: 7px 0 0; color: var(--muted); font-size: 13px; }
+.decision-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-block: 27px; }
+.decision-grid article { padding: 24px; border: 1px solid var(--line); border-top: 4px solid var(--teal); background: #fff; }
+.decision-grid article:last-child { border-top-color: var(--gold); }
+.decision-grid ul { margin-bottom: 0; padding-left: 20px; color: var(--muted); font-size: 13px; }
+.decision-grid li { margin-block: 8px; }
+.followup-band { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; overflow: hidden; margin-block: 28px; border: 1px solid var(--line); border-radius: 7px; background: var(--line); }
+.followup-band div { padding: 17px; background: #fff; }
+.followup-band b, .followup-band span { display: block; }
+.followup-band b { color: var(--coral); font: 700 13px/1.4 "IBM Plex Sans", sans-serif; }
+.followup-band span { margin-top: 5px; color: var(--muted); font-size: 12px; }
+.reasoning-list { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-block: 28px; }
+.reasoning-list article { padding: 21px; border: 1px solid var(--line); background: #fff; }
+.reasoning-list b { color: var(--teal-dark); font-size: 14px; }
+.reasoning-list p { margin: 7px 0 0; color: var(--muted); font-size: 13px; }
+.recommendation-table { min-width: 940px; }
+.recommendation-table th:first-child { width: 55%; }
+.recommendation-table th:nth-child(2) { width: 12%; }
+.grade { display: inline-grid; min-width: 27px; height: 27px; place-items: center; border-radius: 50%; color: #fff; font: 700 11px/1 "IBM Plex Sans", sans-serif; }
+.grade.a { background: #087a73; }
+.grade.b { background: #467b9d; }
+.grade.c { background: #b37b1d; }
+.grade.e { background: #7a6b7c; }
+.critical-points { display: grid; gap: 11px; margin-block: 27px; }
+.critical-points article { display: grid; grid-template-columns: 45px 1fr; gap: 14px; padding: 20px 22px; border: 1px solid var(--line); background: #fff; }
+.critical-points article > span { color: var(--coral); font: 700 12px/1.7 "IBM Plex Sans", sans-serif; }
+.critical-points h3 { margin: 0 0 4px; font-size: 16px; }
+.critical-points p { margin: 0; color: var(--muted); font-size: 13px; }
+.research-agenda { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 27px 0; padding: 0 !important; max-width: none !important; list-style: none; counter-reset: research; }
+.research-agenda li { position: relative; padding: 21px 20px 21px 58px; border: 1px solid var(--line); background: #fff; counter-increment: research; }
+.research-agenda li::before { content: counter(research, decimal-leading-zero); position: absolute; top: 23px; left: 19px; color: var(--coral); font: 700 11px/1.5 "IBM Plex Sans", sans-serif; }
+.research-agenda b, .research-agenda span { display: block; }
+.research-agenda b { font-size: 14px; }
+.research-agenda span { margin-top: 5px; color: var(--muted); font-size: 12px; }
+.source-conclusion { margin-top: 38px; padding: 35px; }
+.source-links { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 28px; }
+.source-links a { padding: 18px; border: 1px solid var(--line); background: #fff; text-decoration: none; }
+.source-links b, .source-links span { display: block; }
+.source-links b { color: var(--ink); font-size: 14px; }
+.source-links span { margin-top: 5px; color: var(--muted); font-size: 12px; }
+
 @media (max-width: 960px) {
   .report-title-grid { grid-template-columns: 1fr; gap: 28px; }
   .report-meta { max-width: 520px; }
@@ -207,6 +286,8 @@
   .causal-chain { grid-template-columns: 1fr; }
   .causal-chain i { display: none; }
   .causal-chain div { min-height: 0; }
+  .source-page .report-layout { grid-template-columns: 1fr; }
+  .source-facts, .fact-grid, .data-strip { grid-template-columns: 1fr 1fr; }
 }
 
 @media (max-width: 700px) {
@@ -224,6 +305,8 @@
   .report-conclusion { padding: 28px 22px; }
   .report-footer { align-items: flex-start; flex-direction: column; }
   .professional-qa details > div { padding-left: 4px; padding-right: 4px; }
+  .organ-map, .pediatric-evidence, .decision-grid, .reasoning-list, .research-agenda, .source-links { grid-template-columns: 1fr; }
+  .followup-band { grid-template-columns: 1fr 1fr; }
 }
 
 @media (max-width: 430px) {
@@ -232,6 +315,11 @@
   .report-meta div:last-child { border-bottom: 0; }
   .mechanism-row { grid-template-columns: 1fr; }
   .executive-points li { grid-template-columns: 35px 1fr; }
+  .source-facts, .fact-grid, .data-strip, .followup-band { grid-template-columns: 1fr; }
+  .source-timeline::before { left: 12px; }
+  .source-timeline li { grid-template-columns: 1fr; gap: 4px; padding-left: 34px; }
+  .source-timeline li::before { left: 7px; }
+  .source-timeline time { text-align: left; }
 }
 
 @media print {
