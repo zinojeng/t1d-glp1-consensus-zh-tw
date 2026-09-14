@@ -8,7 +8,7 @@
 | Director | Codex |
 | Started | 2026-09-14 |
 | Evidence cutoff | 2026-09-14 |
-| Status | INTEGRATION / QA |
+| Status | COMPLETE / PUBLISHED |
 
 ## Session receipts
 
@@ -44,6 +44,17 @@
 - Three independent roles converged on C-01. Methodology and safety roles challenged the adult memo's C-03 causal-language risk; the adult role explicitly added confounding-by-indication / healthy-user / prescriber-selection limitations.
 - The safety role's attempted `EnterWorktree` caused an EPERM fault after its analysis was complete; Codex copied the finished scratch artifact into the canonical path and preserved this receipt.
 
+## Publication receipt
+
+| Field | Value |
+|---|---|
+| Repository | <https://github.com/zinojeng/t1d-glp1-consensus-zh-tw> |
+| Content PR | <https://github.com/zinojeng/t1d-glp1-consensus-zh-tw/pull/1> |
+| Content merge commit | `630ffb4eb8229f403c093bad2c707771a9d23b11` |
+| Pages source | `main:/docs` |
+| Public site | <https://zinojeng.github.io/t1d-glp1-consensus-zh-tw/> |
+| Deployment verification | GitHub Pages state `built`; HTTPS enabled; live request HTTP 200; hero, ADJUST-T1D and C-01 markers matched deployed HTML |
+
 ## Closure checklist
 
 - [x] Canonical SHA and source inventory verified.
@@ -52,6 +63,6 @@
 - [x] Every high-risk claim has evidence class and source.
 - [x] LlamaParse result checked against local source.
 - [x] Source PDFs and secrets excluded from Git.
-- [ ] Markdown, Q&A and website QA passed.
-- [ ] Feature branch pushed, PR merged to `main`, remote commit verified.
-- [ ] GitHub Pages deployed and URL verified.
+- [x] Markdown, Q&A and website QA passed.
+- [x] Feature branch pushed, PR merged to `main`, remote commit verified.
+- [x] GitHub Pages deployed and URL verified.
