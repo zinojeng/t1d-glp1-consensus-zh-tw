@@ -3,139 +3,306 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="2026 T1D 使用 GLP-1／GLP-1–GIP receptor agonist 國際共識的繁體中文證據導讀與安全實作。">
-  <title>T1D × GLP-1/GIP｜2026 共識證據導讀</title>
+  <meta name="description" content="給內分泌與糖尿病專業人員的 2026 T1D 使用 GLP-1／dual GLP-1–GIP receptor agonist 共識導讀、證據矩陣與安全實作。">
+  <title>T1D × GLP-1/GIP｜臨床證據與安全實作</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&amp;family=Noto+Sans+TC:wght@400;500;600;700;900&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-  <header class="hero">
+  <a class="skip-link" href="#overview">跳至主要內容</a>
+  <header class="site-header">
     <nav class="nav wrap" aria-label="主要導覽">
       <a class="brand" href="#top">T1D <span>×</span> GLP-1/GIP</a>
       <div class="nav-links">
-        <a href="#evidence">證據</a><a href="#workflow">流程</a><a href="#safety">安全</a><a href="#qa">Q&amp;A</a>
+        <a href="#article">文章導讀</a>
+        <a href="#evidence">臨床證據</a>
+        <a href="#practice">安全實作</a>
+        <a href="#societies">學會態度</a>
+        <a href="#resources">資源</a>
       </div>
     </nav>
-    <div id="top" class="wrap hero-grid">
-      <div>
-        <p class="eyebrow">2026 INTERNATIONAL CONSENSUS · 繁體中文專業導讀</p>
-        <h1>不是取代 insulin，<br>而是重寫安全邊界。</h1>
-        <p class="lead">T1D 使用 semaglutide 或 tirzepatide 的真正難題，不只是「有沒有減重」，而是 appetite、bolus、basal、AID、ketone 與 procedure 如何同步管理。</p>
-        <div class="actions">
-          <a class="button primary" href="https://github.com/zinojeng/t1d-glp1-consensus-zh-tw/blob/main/REPORT_ZH_TW.md">閱讀完整報告</a>
-          <a class="button secondary" href="https://github.com/zinojeng/t1d-glp1-consensus-zh-tw/blob/main/QA_ZH_TW.md">10 題進階 Q&amp;A</a>
-        </div>
-      </div>
-      <aside class="status-card" aria-label="共識定位">
-        <span class="status-dot"></span><strong>共識定位</strong>
-        <div class="big">6</div>
-        <p>個組織 endorsement</p>
-        <p class="endorsers">ATTD · IDF-Europe · AACE<br>Breakthrough T1D · ISPAD · ADCES</p>
-        <hr>
-        <p><b>不是：</b>T1D regulatory approval<br><b>不是：</b>phase 3 成果定案<br><b>是：</b>expert consensus + safe-use framework</p>
-      </aside>
-    </div>
   </header>
 
-  <main>
-    <section class="wrap thesis">
-      <p class="kicker">核心判讀</p>
-      <blockquote>現有證據最一致的利益是 <em>weight loss</em> 與 <em>insulin-sparing</em>；HbA1c 平均改善較小。最大風險不是一個單獨副作用，而是「食量驟降 → insulin 調整失衡 → hypoglycemia 或 euglycemic ketosis」的連鎖反應。</blockquote>
-      <div class="four-cards">
-        <article><span>01</span><h3>Adjunct, not replacement</h3><p>任何情況都不應把 GLP-1/GIP therapy 當成 basal insulin 的替代品。</p></article>
-        <article><span>02</span><h3>Low &amp; slow</h3><p>最低劑量開始；常見為每 4 週升階，T1D 高風險者可更慢。</p></article>
-        <article><span>03</span><h3>CGM first</h3><p>升階期以 TIR、TBR 與 daily pattern 指導，不等待 HbA1c。</p></article>
-        <article><span>04</span><h3>Ketone aware</h3><p>正常或僅輕度升高的 glucose，仍不能排除 insulin-deficient ketosis。</p></article>
+  <section id="top" class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="badges"><span>CLINICIAN EVIDENCE HUB</span><span>UPDATED 2026-09-14</span></div>
+        <h1>T1D 使用 GLP-1／GIP therapy：從共識到診間</h1>
+        <p class="lead">針對成人與兒童內分泌、糖尿病科技及照護團隊，整理 2026 國際共識的臨床背景、研究證據、insulin／CGM／ketone 安全流程、各學會立場與尚未回答的問題。</p>
+        <div class="actions">
+          <a class="button primary" href="https://doi.org/10.1177/15209156261449879">原始共識 DOI</a>
+          <a class="button secondary" href="https://github.com/zinojeng/t1d-glp1-consensus-zh-tw/blob/main/REPORT_ZH_TW.md">完整繁中報告</a>
+        </div>
       </div>
-    </section>
+      <aside class="orientation" aria-label="快速臨床定位">
+        <p class="orientation-label">30 秒臨床定位</p>
+        <div class="orientation-row"><b>角色</b><span>Adjunct to insulin</span></div>
+        <div class="orientation-row"><b>T1D 適應症</b><span class="status off">尚未核准</span></div>
+        <div class="orientation-row"><b>最佳證據</b><span>小型 RCT + meta-analysis</span></div>
+        <div class="orientation-row"><b>最一致利益</b><span>Weight、TDD、TIR</span></div>
+        <div class="orientation-row"><b>核心風險</b><span>GI、hypoglycemia、ketosis</span></div>
+        <div class="orientation-row critical"><b>不可退讓</b><span>Never stop insulin</span></div>
+      </aside>
+    </div>
+  </section>
 
-    <section id="evidence" class="evidence band">
-      <div class="wrap">
-        <p class="kicker">WHAT THE TRIALS ACTUALLY SHOW</p>
-        <h2>把效果量放回研究設計裡看</h2>
+  <div class="wrap page-shell">
+    <aside class="rail" aria-label="本頁目錄">
+      <p>ON THIS PAGE</p>
+      <a href="#overview">臨床背景</a>
+      <a href="#article">原文結構</a>
+      <a href="#evidence">證據矩陣</a>
+      <a href="#candidates">候選者</a>
+      <a href="#practice">起始與追蹤</a>
+      <a href="#insulin">Insulin table</a>
+      <a href="#safety">安全議題</a>
+      <a href="#populations">特殊族群</a>
+      <a href="#societies">學會態度</a>
+      <a href="#methods">方法與利益衝突</a>
+      <a href="#gaps">研究缺口</a>
+      <a href="#resources">相關資源</a>
+    </aside>
+
+    <main class="content">
+      <section id="overview" class="section intro-section">
+        <p class="kicker">CLINICAL BACKGROUND</p>
+        <h2>為什麼 T1D 會開始討論 incretin therapy？</h2>
+        <p class="standfirst">T1D 的核心仍是 absolute insulin deficiency，但現代 T1D 族群同時面臨 obesity、insulin resistance、較高 total daily dose（TDD）、postprandial variability 與 cardiovascular／renal risk。CGM 與 AID 改善 glucose management，卻不直接處理體重或 insulin resistance。</p>
+        <div class="concept-grid">
+          <article><span>生理作用</span><h3>Satiety 與 gastric emptying</h3><p>GLP-1/GIP agonism 降低 energy intake、延緩胃排空、抑制不適當 glucagon，並可改善 insulin sensitivity。</p></article>
+          <article><span>臨床利益</span><h3>Weight 與 prandial burden</h3><p>最明顯的效果通常是體重與餐時 insulin 需求下降；HbA1c 的平均改善相對 modest。</p></article>
+          <article><span>風險來源</span><h3>Intake–insulin mismatch</h3><p>食量與吸收速度先改變，insulin 若調整太慢會低血糖；若減得過頭，可能 euglycemic ketosis／DKA。</p></article>
+        </div>
+        <div class="callout neutral"><b>臨床定位</b><p>這不是「以 GLP-1/GIP 取代 insulin」，而是加入一個會改變 appetite、meal absorption 與 insulin requirement 的治療，因此監測與教育本身就是 intervention 的一部分。</p></div>
+      </section>
+
+      <section id="article" class="section">
+        <p class="kicker">THE 2026 CONSENSUS</p>
+        <h2>原始文章如何組成？</h2>
+        <div class="paper-meta">
+          <div><b>32</b><span>位作者／國際跨專業 panel</span></div>
+          <div><b>2026-02-09</b><span>文獻搜尋截止日</span></div>
+          <div><b>2026-03-10</b><span>Barcelona consensus workshop</span></div>
+          <div><b>6</b><span>個組織 endorsement</span></div>
+        </div>
+        <p>Garg 等人的 <em>Consensus Report and Practical Guidelines for Safe Use</em> 是一份 structured search 支持的 international expert consensus／narrative review。檢索 MEDLINE、PubMed 與 Cochrane Library；panel 涵蓋成人與兒童內分泌、diabetes technology、nutrition、epidemiology、病人組織及 lived experience。</p>
+        <div class="article-map">
+          <article><b>01</b><div><h3>Rationale &amp; current use</h3><p>T1D 的 unmet needs、off-label access、real-world adoption。</p></div></article>
+          <article><b>02</b><div><h3>Clinical outcomes</h3><p>HbA1c、TIR、weight、TDD、cardiorenal observational signals。</p></div></article>
+          <article><b>03</b><div><h3>Initiation &amp; titration</h3><p>候選者、low-and-slow、Table 2 insulin adjustment、AID nuances。</p></div></article>
+          <article><b>04</b><div><h3>Monitoring</h3><p>CGM、ketone、sick-day education、follow-up cadence。</p></div></article>
+          <article><b>05</b><div><h3>Adverse effects</h3><p>GI、gastroparesis、hypoglycemia、ketosis、retinopathy。</p></div></article>
+          <article><b>06</b><div><h3>Nutrition &amp; life stage</h3><p>Lean mass、eating disorder、pregnancy、young people、frailty。</p></div></article>
+          <article><b>07</b><div><h3>Procedures &amp; access</h3><p>Endoscopy／surgery、oral drugs、equity、shortages、cost。</p></div></article>
+          <article><b>08</b><div><h3>Research agenda</h3><p>Phase 3、normal BMI、cardiorenal outcomes、long-term safety。</p></div></article>
+        </div>
+        <div class="callout caution"><b>如何閱讀 recommendation grade？</b><p>原文使用 A/B/C/E，但沒有在文章內定義其規則，也未呈現 formal GRADE evidence-to-decision、投票閾值或完整 risk-of-bias tool。因此本站稱為「panel recommendation grade」，不把它翻成 GRADE certainty。</p></div>
+      </section>
+
+      <section id="evidence" class="section wide-section">
+        <p class="kicker">EVIDENCE MATRIX</p>
+        <h2>新型 weekly agents 的資料正在變強，但仍不是 phase 3 定論</h2>
         <div class="trial-grid">
-          <article class="trial">
-            <p class="trial-tag">SEMAGLUTIDE · RCT</p><h3>ADJUST-T1D</h3><p class="n">n=72 · 26 weeks · AID · BMI ≥30</p>
-            <div class="metric"><b>36%</b><span>達成 TIR/TBR/weight 複合終點<br>placebo 0%</span></div>
-            <div class="mini"><span>HbA1c −0.3%</span><span>TIR +8.8 pp</span><span>Weight −8.8 kg</span></div>
+          <article class="trial featured">
+            <p class="trial-tag">SEMAGLUTIDE · RCT</p><h3>ADJUST-T1D</h3><p class="n">n=72 · 26 weeks · BMI ≥30 · all AID</p>
+            <div class="metric"><b>36%</b><span>達到 TIR &gt;70%、TBR &lt;4%、weight loss ≥5%<br>Placebo：0%</span></div>
+            <ul><li>HbA1c between-group：約 −0.3%</li><li>TIR：約 +8.8 percentage points</li><li>Weight：約 −8.8 kg</li><li>Severe hypoglycemia：兩組各 2；DKA：0</li></ul>
+            <a href="https://doi.org/10.1056/EVIDoa2500173">查看原始研究</a>
           </article>
           <article class="trial">
             <p class="trial-tag">SEMAGLUTIDE · CROSSOVER RCT</p><h3>Pasqua et al.</h3><p class="n">n=28 randomized · 24 completed · AID</p>
-            <div class="metric"><b>+4.8</b><span>percentage points TIR<br>without increased TBR</span></div>
-            <p class="warning">2 cases recurrent euglycemic ketosis without acidosis</p>
+            <div class="metric"><b>+4.8 pp</b><span>TIR vs placebo<br>未增加 TBR</span></div>
+            <ul><li>無 DKA／severe hypoglycemia</li><li>2 人 recurrent euglycemic ketosis without acidosis</li><li>GI AE：82% vs 25%</li></ul>
+            <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12003151/">Open-access full text</a>
           </article>
           <article class="trial">
-            <p class="trial-tag">TIRZEPATIDE · PHASE 2 RCT</p><h3>Snaith et al.</h3><p class="n">n=24 · 12 weeks · 2.5 → 5 mg</p>
-            <div class="metric"><b>−8.7</b><span>kg between-group<br>weight difference</span></div>
-            <div class="mini"><span>HbA1c −0.4%</span><span>TDD −35.1%</span></div>
+            <p class="trial-tag">TIRZEPATIDE · PHASE 2 RCT</p><h3>TIRTLE1</h3><p class="n">n=24 · 12 weeks · BMI ≥30</p>
+            <div class="metric"><b>−8.7 kg</b><span>estimated treatment difference<br>95% CI −12.0 to −5.5</span></div>
+            <ul><li>HbA1c difference：約 −0.4%；P=.05</li><li>TDD：−24.2 vs −0.3 U/day</li><li>Relative TDD difference：−35.1%</li><li>多項高風險情境被排除</li></ul>
+            <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12719702/">Open-access full text</a>
           </article>
         </div>
-        <div class="meta-row">
-          <div><strong>13 RCT meta-analysis</strong><span>成人 T1D、BMI ≥25、至少 12 週</span></div>
-          <div><b>−4.31 kg</b><span>weight</span></div><div><b>−0.25%</b><span>HbA1c</span></div><div><b>−9.24 U/day</b><span>TDD</span></div><div class="risk"><b>OR 1.34</b><span>hypoglycemia ↑</span></div>
+
+        <div class="meta-analysis">
+          <div class="meta-copy"><p class="trial-tag">2026 META-ANALYSIS · 13 RCTs</p><h3>平均效益與代價必須一起讀</h3><p>成人 T1D、BMI ≥25、至少 12 週；不同藥物世代、劑量與 insulin protocols 具有異質性。</p><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12673429/">Purcell et al. full text</a></div>
+          <div class="meta-metrics"><div><b>−4.31 kg</b><span>Weight</span></div><div><b>−0.25%</b><span>HbA1c</span></div><div><b>−9.24 U/day</b><span>TDD</span></div><div class="risk"><b>OR 1.34</b><span>Hypoglycemia ↑</span></div></div>
         </div>
-        <p class="fineprint">數字為研究層級估計，不是個別病人的保證。Tirzepatide 與 semaglutide 尚無 T1D head-to-head RCT；長期心腎／死亡資料目前為 observational association，不能作因果宣稱。</p>
-      </div>
-    </section>
 
-    <section id="workflow" class="wrap workflow">
-      <p class="kicker">CLINIC-READY WORKFLOW</p><h2>安全起始，不靠一張固定減量表</h2>
-      <ol class="timeline">
-        <li><div class="node">1</div><div><h3>Baseline</h3><p>14-day CGM、basal/bolus/TDD、AID settings、GI、眼底、腎臟、營養、pregnancy、ketone skill。</p></div></li>
-        <li><div class="node">2</div><div><h3>Start low</h3><p>最低劑量開始；先檢視 prandial insulin／ICR，保留足夠 basal。</p></div></li>
-        <li><div class="node">3</div><div><h3>Day 2–3</h3><p>讀 CGM、intake、hypoglycemia、GI symptom 與 ketone risk；必要時立即再調。</p></div></li>
-        <li><div class="node">4</div><div><h3>Day 7–14</h3><p>臨床接觸；確認 hydration、sick-day plan、manual-mode basal 與 oral drugs。</p></div></li>
-        <li><div class="node">5</div><div><h3>Every 4–8 weeks</h3><p>只有 benefit/tolerability/safety 均允許才升階；穩定後約每 3 個月追蹤。</p></div></li>
-      </ol>
-      <div class="redline"><b>不可退讓的紅線</b><span>T1D 絕不可完全停 insulin。Vomiting、abdominal pain、fatigue、dehydration 或 insulin 大幅下降時，即使 glucose 未達 250 mg/dL 也要驗 blood ketone。</span></div>
-    </section>
-
-    <section id="safety" class="safety band dark">
-      <div class="wrap">
-        <p class="kicker">SEVEN SAFETY DOMAINS</p><h2>監測不是附加條件，而是治療本體</h2>
-        <div class="safety-grid">
-          <article><span>01</span><h3>Hypoglycemia</h3><p>食量先變、bolus 未變最危險。先看 TBR 與餐時 pattern。</p></article>
-          <article><span>02</span><h3>Ketosis / DKA</h3><p>≥200 mg/dL（11.1 mmol/L）持續 ≥2 h 或生病／GI symptoms 即驗。</p></article>
-          <article><span>03</span><h3>GI / Gastroparesis</h3><p>持續嘔吐不能只當副作用；要同時排除 dehydration 與 ketosis。</p></article>
-          <article><span>04</span><h3>Retinopathy</h3><p>避免過快 HbA1c 下降；高風險者先穩定眼病並提早複查。</p></article>
-          <article><span>05</span><h3>Lean mass / Nutrition</h3><p>追蹤 strength、function、protein；加入 resistance training 與 dietitian。</p></article>
-          <article><span>06</span><h3>Pregnancy / Oral drugs</h3><p>備孕停用；注意 oral contraceptive 與 narrow-index drug absorption。</p></article>
-          <article><span>07</span><h3>Procedure</h3><p>individualized shared decision；不是「upper endoscopy 一律不改藥」。</p></article>
+        <div class="evidence-table-wrap">
+          <table class="evidence-table">
+            <thead><tr><th scope="col">臨床問題</th><th scope="col">目前最佳證據</th><th scope="col">可採用的說法</th><th scope="col">不能過度推論</th></tr></thead>
+            <tbody>
+              <tr><td>Weight／TDD</td><td><span class="level rct">RCT + meta-analysis</span></td><td>多數研究顯示 clinically meaningful reduction</td><td>個別反應與耐受度差異大</td></tr>
+              <tr><td>HbA1c／TIR</td><td><span class="level rct">Small RCTs</span></td><td>平均 modest HbA1c improvement；AID RCT 的 TIR 有改善</td><td>不可外推到所有 device／BMI／risk groups</td></tr>
+              <tr><td>Cardiovascular／renal</td><td><span class="level obs">Observational</span></td><td>與較低 MACE／ESRD 發生率相關</td><td>無 T1D outcome RCT，不得使用因果語言</td></tr>
+              <tr><td>Pediatric T1D</td><td><span class="level low">Small retrospective</span></td><td>有初步體重、TIR、TDD 訊號</td><td>尚無 adequately powered pediatric RCT</td></tr>
+              <tr><td>Lean mass／retinopathy</td><td><span class="level low">Mixed / extrapolated</span></td><td>需主動監測並管理風險</td><td>尚無確定 T1D-specific effect estimate</td></tr>
+            </tbody>
+          </table>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="wrap correction">
-      <p class="kicker">SOURCE AUDIT</p><h2>原文兩個不能靜默帶過的問題</h2>
-      <div class="correction-grid">
-        <article><p class="case">C-01 · 單位誤植</p><h3>200 mg/dL 不是 13.9 mmol/L</h3><p>正文正確寫 11.1 mmol/L，recommendation list 誤植為 13.9。本站採正確換算並保留勘誤。</p></article>
-        <article><p class="case">C-02 · 圖文不一致</p><h3>Endoscopy 不能一概「no change」</h3><p>正式正文要求 multidisciplinary individualization；OCULUS RCT 的 continue 組 retained content 顯著較高。</p></article>
-      </div>
-    </section>
-
-    <section id="qa" class="qa band soft">
-      <div class="wrap">
-        <p class="kicker">TEN QUESTIONS FOR PRACTICE</p><h2>把常見問題問到可以做決策</h2>
-        <div class="qa-grid">
-          <a href="https://github.com/zinojeng/t1d-glp1-consensus-zh-tw/blob/main/QA_ZH_TW.md#q1-六個專業組織-endorsement是否代表-semaglutidetirzepatide-已核准治療-t1d"><b>01</b><span>Endorsement 等於核准嗎？</span></a>
-          <a href="https://github.com/zinojeng/t1d-glp1-consensus-zh-tw/blob/main/QA_ZH_TW.md#q2-哪一類-t1d-患者最可能有-net-clinical-benefit"><b>02</b><span>誰最可能有 net benefit？</span></a>
-          <a href="https://github.com/zinojeng/t1d-glp1-consensus-zh-tw/blob/main/QA_ZH_TW.md#q3-對-hba1ctir體重與-insulin-dose可合理期待多大效果"><b>03</b><span>效果量有多大？</span></a>
-          <a href="https://github.com/zinojeng/t1d-glp1-consensus-zh-tw/blob/main/QA_ZH_TW.md#q4-起始-glp-1gip-therapy-時insulin-應如何調整"><b>04</b><span>Insulin 怎麼調？</span></a>
-          <a href="https://github.com/zinojeng/t1d-glp1-consensus-zh-tw/blob/main/QA_ZH_TW.md#q5-為什麼可能出現-euglycemic-ketosis如何預防-dka"><b>05</b><span>如何預防 euglycemic ketosis？</span></a>
-          <a href="https://github.com/zinojeng/t1d-glp1-consensus-zh-tw/blob/main/QA_ZH_TW.md#q6-aid-是否會自動把所有-insulin-問題處理好"><b>06</b><span>AID 能全部自動處理嗎？</span></a>
-          <a href="https://github.com/zinojeng/t1d-glp1-consensus-zh-tw/blob/main/QA_ZH_TW.md#q7-gi-adverse-effects-只是忍一下就好嗎什麼時候要擔心-gastroparesis-或-dka"><b>07</b><span>GI symptoms 何時是警訊？</span></a>
-          <a href="https://github.com/zinojeng/t1d-glp1-consensus-zh-tw/blob/main/QA_ZH_TW.md#q8-retinopathylean-mass-與-nutrition-應怎麼監測"><b>08</b><span>眼底、肌肉與營養怎麼看？</span></a>
-          <a href="https://github.com/zinojeng/t1d-glp1-consensus-zh-tw/blob/main/QA_ZH_TW.md#q9-pregnancyoral-contraceptivesurgeryendoscopy-有哪些關鍵點"><b>09</b><span>Pregnancy 與 procedure 呢？</span></a>
-          <a href="https://github.com/zinojeng/t1d-glp1-consensus-zh-tw/blob/main/QA_ZH_TW.md#q10-面對目前證據如何完成高品質-shared-decision-making"><b>10</b><span>如何做好 shared decision？</span></a>
+      <section id="candidates" class="section">
+        <p class="kicker">PATIENT SELECTION</p>
+        <h2>誰較可能受益？誰需要先停下來評估？</h2>
+        <div class="split-panel">
+          <div class="positive"><h3>較合理的候選輪廓</h3><ul class="check-list"><li>成人 T1D + BMI ≥30 kg/m²</li><li>BMI ≥27 kg/m² 且有 hypertension、dyslipidemia、OSA 或 CVD</li><li>Weight、insulin resistance、postprandial excursion／bolus burden 是重要治療目標</li><li>可取得 CGM、blood ketone 與密集早期追蹤</li><li>理解 off-label／obesity-indication distinction 並可 shared decision-making</li></ul></div>
+          <div class="negative"><h3>不宜貿然開始／應先處理</h3><ul class="cross-list"><li>Pregnancy、備孕或無法執行適當 contraception</li><li>近期反覆 DKA、significant insulin omission、無法驗 ketone</li><li>Severe gastroparesis、持續 vomiting／dehydration</li><li>Active proliferative retinopathy／macular edema 未穩定</li><li>Malnutrition、frailty、restrictive eating／diabulimia concern</li><li>無法維持 insulin、CGM review 或臨床 follow-up</li></ul></div>
         </div>
-      </div>
-    </section>
-  </main>
+        <p class="footnote">共識也允許在 BMI &lt;27、密集 insulin 後仍未達 glycemic target 時個別考慮，但此情境直接證據較弱，lean mass／nutrition 與 ketosis 的權重更高。</p>
+      </section>
+
+      <section id="practice" class="section practice-section">
+        <p class="kicker">CLINICAL IMPLEMENTATION</p>
+        <h2>起始、升階與追蹤：把監測設計在處方之前</h2>
+        <ol class="timeline">
+          <li><div class="node">01</div><div><h3>Baseline assessment</h3><p>14-day CGM、TIR/TBR、basal/bolus/TDD、ICR、correction factor、AID model/manual profile；同時評估 GI、眼底、eGFR/UACR、nutrition、pregnancy、oral drugs 與 procedure plan。</p></div></li>
+          <li><div class="node">02</div><div><h3>Education &amp; rescue plan</h3><p>書面 sick-day plan、blood ketone equipment、hypoglycemia rescue、hydration、何時聯絡團隊／急診。先確認患者知道 GLP-1/GIP 不取代 insulin。</p></div></li>
+          <li><div class="node">03</div><div><h3>Start low, titrate slow</h3><p>從最低劑量開始；常見每 4 週才升一階。Lower BMI、young adult、DKD 或 GI intolerance 可拉長至每 2–3 個月。</p></div></li>
+          <li><div class="node">04</div><div><h3>Day 2–3 review</h3><p>優先檢視 bolus／ICR、meal size、pre-bolus timing、TBR 與 overnight basal。避免一次依預期最終 TDD reduction 大幅減量。</p></div></li>
+          <li><div class="node">05</div><div><h3>Day 7–14 contact</h3><p>評估 nausea／vomiting、hydration、constipation、ketone events、manual-mode basal 與 treatment burden。</p></div></li>
+          <li><div class="node">06</div><div><h3>Escalation &amp; maintenance</h3><p>每 4–8 週按 benefit、tolerability 與 safety 再決定升階；穩定後約每 3 個月。每次就診都重評 insulin regimen。</p></div></li>
+        </ol>
+        <div class="callout critical"><b>Ketone trigger</b><p>Glucose ≥200 mg/dL（11.1 mmol/L）持續 ≥2 小時即驗。Illness、持續 GI symptoms、攝食／飲水下降或 insulin 明顯減量時，即使 glucose &lt;250 mg/dL 也驗。優先 capillary blood β-hydroxybutyrate。</p></div>
+      </section>
+
+      <section id="insulin" class="section wide-section">
+        <p class="kicker">CONSENSUS TABLE 2</p>
+        <h2>Insulin 起始調整框架</h2>
+        <p>以下為 panel 的 starting suggestions，不是 standing order。升階期間 CGM 應優先於 HbA1c；實際幅度需同時考慮 recurrent hypoglycemia、meal intake、renal function、exercise 與 AID behavior。</p>
+        <div class="dose-table-wrap">
+          <table class="dose-table">
+            <thead><tr><th scope="col">Baseline glycemia</th><th scope="col">MDI basal</th><th scope="col">MDI bolus</th><th scope="col">AID basal</th><th scope="col">AID bolus</th></tr></thead>
+            <tbody>
+              <tr><td>TIR &lt;50% 且 TBR &lt;4%</td><td>不變</td><td>不變</td><td>不變</td><td>不變</td></tr>
+              <tr><td>TIR 50–60% 且 TBR &lt;4%</td><td>−10%</td><td>−10%</td><td>不變</td><td>−10%</td></tr>
+              <tr><td>TIR 60–70% 且 TBR &lt;4%</td><td>−15%</td><td>−20%</td><td>−10%</td><td>−20%</td></tr>
+              <tr class="high-risk"><td>TIR ≥70% 或 TBR ≥4%</td><td>−20%</td><td>−25%</td><td>−15%</td><td>−25%</td></tr>
+              <tr class="divider"><td colspan="5">無可用 CGM 時才以 HbA1c 作起始替代</td></tr>
+              <tr><td>HbA1c &gt;8.5%</td><td>不變</td><td>不變</td><td>不變</td><td>不變</td></tr>
+              <tr><td>HbA1c 7.5–8.5%</td><td>−10%</td><td>−10%</td><td>不變</td><td>−10%</td></tr>
+              <tr><td>HbA1c 7.0–7.5%</td><td>−15%</td><td>−20%</td><td>−10%</td><td>−20%</td></tr>
+              <tr class="high-risk"><td>HbA1c &lt;7.0%</td><td>−20%</td><td>−25%</td><td>−15%</td><td>−25%</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="aid-grid">
+          <article><h3>Adaptive basal systems</h3><p>MiniMed 780G、Omnipod 5 等可依需求調整 automated basal；但退出 auto mode 時，舊 manual basal profile 可能過高，需預先 review。</p></article>
+          <article><h3>Programmed-basal systems</h3><p>Tandem Control-IQ、twiist、CamAPS FX 等會使用 programmed basal／相關參數；除 ICR 外，可能仍需調 basal settings。</p></article>
+          <article><h3>Meal dynamics</h3><p>Delayed gastric emptying 會改變 bolus timing。需觀察 early low／late high、extended or split bolus 與 auto-correction，而非只看 TDD。</p></article>
+        </div>
+      </section>
+
+      <section id="safety" class="section safety-section">
+        <p class="kicker">SAFETY DOMAINS</p>
+        <h2>七個需要主動管理的臨床議題</h2>
+        <div class="safety-list">
+          <article><span>01</span><div><h3>Hypoglycemia</h3><p>Appetite／meal size 先下降、bolus 尚未調整是常見路徑。CGM TBR、餐後 pattern 與 overnight basal 必須在開始後數日即檢視；meta-analysis 顯示 hypoglycemia OR 1.34。</p></div></article>
+          <article><span>02</span><div><h3>Euglycemic ketosis／DKA</h3><p>Insulin deficiency 可在 glucose 不高時造成 ketogenesis。Nausea、vomiting、abdominal pain、fatigue 同時是 GI adverse effect 與 ketosis 症狀，不能靠症狀名稱區分，必須驗 ketone。</p></div></article>
+          <article><span>03</span><div><h3>GI intolerance／gastroparesis</h3><p>RCT 的 GI AE 約 53–82%，視藥物與設計而異。先處理 reflux／constipation，維持 hydration；疑似 autonomic gastroparesis 或 persistent vomiting 時不要機械式升階。</p></div></article>
+          <article><span>04</span><div><h3>Diabetic retinopathy</h3><p>主要擔心 rapid glycemic improvement 的 early worsening。高 baseline HbA1c、active disease 或近期 ocular treatment 者先穩定並安排較早 ophthalmic follow-up；時間表主要屬 expert extrapolation。</p></div></article>
+          <article><span>05</span><div><h3>Lean mass／nutrition／eating disorder</h3><p>T1D lean-mass trials 結果不一致。除了 BMI，追蹤 strength、function、protein／energy intake，加入 resistance training；主動篩檢 intentional insulin omission／diabulimia。</p></div></article>
+          <article><span>06</span><div><h3>Pregnancy／oral drug absorption</h3><p>備孕或確認 pregnancy 應停用並依產品 label 安排 washout。Delayed gastric emptying 可能影響 oral contraceptive、levothyroxine 等藥物 exposure；起始與升階後需重新確認。</p></div></article>
+          <article><span>07</span><div><h3>Surgery／sedation／endoscopy</h3><p>應採 patient、proceduralist、anesthesiologist、endocrinologist 的 individualized shared decision；可考慮 24-hour clear-liquid strategy，hold／continue 均需 insulin、CGM 與 ketone plan。</p></div></article>
+        </div>
+      </section>
+
+      <section class="section correction-section">
+        <p class="kicker">PRIMARY-SOURCE AUDIT</p>
+        <h2>原文兩個需要明確揭露的內部問題</h2>
+        <div class="correction-grid">
+          <article><p class="case">C-01 · UNIT CONVERSION</p><h3>200 mg/dL 應是 11.1 mmol/L</h3><p>正文寫法正確；正式 recommendations 的 `13.9 mmol/L` 約等於 250 mg/dL，極可能是相鄰 euglycemic-ketosis 句子的編修誤植。三個 reviewer 獨立核對後一致確認。</p></article>
+          <article><p class="case">C-02 · ENDOSCOPY GUIDANCE</p><h3>Graphical abstract 與正文不一致</h3><p>圖示寫 upper endoscopy「no change」，正文則要求 individualized approach。OCULUS RCT 的 clinically significant retained gastric volume／視野不佳為 continue 25.0% vs hold 3.1%（P=.003）。</p><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12993733/">OCULUS full text</a></article>
+        </div>
+      </section>
+
+      <section id="populations" class="section">
+        <p class="kicker">SPECIAL POPULATIONS</p>
+        <h2>不能直接套用成人 obesity trial 的族群</h2>
+        <div class="population-grid">
+          <article><h3>Children／adolescents</h3><p>目前主要是 n=8、24、33 的 case series／retrospective studies。可見 weight、TIR、TDD 初步訊號，但尚無 adequately powered pediatric RCT；需 pediatric endocrinology、family 與 nutrition team 共同決策。</p></article>
+          <article><h3>Normal BMI</h3><p>可能存在 postprandial／insulin-sparing benefit，但 nutrition、lean mass 與 ketosis 的 trade-off 更突出；共識支持度主要來自 expert opinion。</p></article>
+          <article><h3>Older／frail adults</h3><p>體重下降不必然是利益。應把 grip strength、mobility、falls、protein intake 與 functional reserve 納入成功／停止條件。</p></article>
+          <article><h3>CKD／DKD</h3><p>藥物不一定依 kidney clearance，但 dehydration、GI intolerance、blood pressure 與 insulin clearance 會改變風險。Cardiorenal benefit 仍不能由 T2D 直接外推。</p></article>
+        </div>
+      </section>
+
+      <section id="societies" class="section wide-section societies-section">
+        <p class="kicker">PROFESSIONAL-SOCIETY LANDSCAPE</p>
+        <h2>各組織的態度：endorsement、既有 guideline 與不可過度解讀之處</h2>
+        <p class="standfirst">下表把「明列為本共識的 endorsing organization」與「該組織在其他正式文件中的立場」分開。若官方網站沒有另一份獨立 T1D-GLP-1 statement，本站不替組織推導額外政策。</p>
+        <div class="society-table-wrap">
+          <table class="society-table">
+            <thead><tr><th scope="col">組織</th><th scope="col">與 2026 共識的關係</th><th scope="col">可確認的臨床脈絡</th><th scope="col">正確解讀</th></tr></thead>
+            <tbody>
+              <tr><td><b>ATTD</b><span>Advanced Technologies &amp; Treatments for Diabetes</span></td><td><span class="endorsement">Explicit endorser</span></td><td>共識高度依賴 CGM／AID、TIR/TBR 與 device-specific insulin adjustment，符合 ATTD 的 technology-focused care framework。</td><td>支持 safe-use framework；不等於所有 AID 使用者都應接受 GLP-1/GIP therapy。</td></tr>
+              <tr><td><b>IDF-Europe</b><span>International Diabetes Federation–Europe</span></td><td><span class="endorsement">Explicit endorser</span></td><td>本共識亦處理 access、out-of-pocket cost、shortage 與不同 health-system pathways。</td><td>表示對這份國際框架的認可；不是歐洲藥品適應症或 payer coverage 決定。</td></tr>
+              <tr><td><b>AACE</b><span>American Association of Clinical Endocrinology</span></td><td><span class="endorsement">Explicit endorser</span></td><td>2022 AACE guideline 強調 T1D 每日 adequate basal insulin；當時將 GLP-1 RA 列為 unapproved adjunct，指出 liraglutide 的 modest A1c／weight benefit 與 hypoglycemia／ketosis concern。</td><td>2026 endorsement 反映較新 weekly-agent evidence 與安全管理需求；沒有把 insulin-first 原則改掉。</td></tr>
+              <tr><td><b>Breakthrough T1D</b><span>Patient research &amp; advocacy organization</span></td><td><span class="endorsement">Explicit endorser</span></td><td>共識納入 lived experience，並強調已自行取得藥物者不應被排除於專業教育、ketone tools 與 clinical support 之外。</td><td>是 patient-safety／access 層面的認可，不是藥品主管機關或處方 guideline。</td></tr>
+              <tr><td><b>ISPAD</b><span>International Society for Pediatric and Adolescent Diabetes</span></td><td><span class="endorsement">Explicit endorser</span></td><td>ISPAD 2024 adjunctive-treatment guideline 描述 GLP-1 RA 的 physiologic rationale，並區分 youth obesity／T2D approvals；T1D pediatric evidence 仍稀少。</td><td>Endorsement 不應解讀成 routine pediatric T1D use；兒少需更高門檻與專科監督。</td></tr>
+              <tr><td><b>ADCES</b><span>Association of Diabetes Care &amp; Education Specialists</span></td><td><span class="endorsement">Explicit endorser</span></td><td>共識將 written insulin adjustment、CGM interpretation、ketone equipment、sick-day rules、nutrition 與 access navigation 視為必要照護。</td><td>強化 diabetes care and education specialist 的實作角色；不能反推 ADCES 已另發布 routine-use recommendation。</td></tr>
+              <tr class="comparator"><td><b>ADA</b><span>American Diabetes Association</span></td><td><span class="not-endorser">Not listed as endorser</span></td><td>2026 Standards：insulin 仍是 T1D pharmacotherapy 主體；承認 semaglutide／tirzepatide pilot data 與 ongoing prospective studies，並指出 older liraglutide trials 的 DKA／GI limits。</td><td>目前是「recognizes emerging evidence」，不是 routine T1D GLP-1 recommendation；obesity indication pharmacotherapy guidance 與 T1D indication 需分開。</td></tr>
+              <tr class="comparator"><td><b>ADA/EASD</b><span>2021 adult T1D consensus</span></td><td><span class="not-endorser">Context document</span></td><td>當時認為 adjuncts 對 clinically relevant outcomes 證據有限，不能 general recommendation，但可在 individual cases 考慮。</td><td>提供演進基準：2026 safe-use consensus 較積極，主要因 newer weekly-agent data；證據仍不足以宣稱 universal standard。</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="callout neutral"><b>Endorsement 的邊界</b><p>它代表組織認可這份 consensus 的價值，但不會自動改變 regulatory label、建立 reimbursement entitlement、提升 observational data 的 evidence certainty，或取代 patient-specific clinical judgment。</p></div>
+      </section>
+
+      <section id="methods" class="section methods-section">
+        <p class="kicker">METHODOLOGY &amp; CONFLICTS</p>
+        <h2>共識可信度應如何校準？</h2>
+        <div class="method-grid">
+          <div><h3>優點</h3><ul><li>跨成人、兒童、technology、nutrition 與 lived-experience panel</li><li>Structured search 涵蓋 MEDLINE、PubMed、Cochrane</li><li>安全議題涵蓋範圍完整，能直接轉化為 clinic workflow</li><li>承認 off-label reality，避免患者在沒有教育下自行用藥</li></ul></div>
+          <div><h3>限制</h3><ul><li>不是 formal systematic review／clinical outcome guideline</li><li>未報告 PRISMA flow、formal RoB tool、投票／quorum threshold</li><li>大部分長期 T1D 資料仍為 retrospective／observational</li><li>Rare events、normal BMI、pediatrics 與 long-term outcomes 不足</li></ul></div>
+          <div><h3>Funding／COI</h3><ul><li>Consensus process 與 workshop 由 diaTribe Foundation 資助</li><li>Medical writer 由 diaTribe 支持並協助版本整合</li><li>多位作者揭露與 Novo Nordisk、Eli Lilly 及 diabetes-device companies 的關係</li><li>揭露不代表建議無效，但要求讀者保留 evidence-class discipline</li></ul></div>
+        </div>
+      </section>
+
+      <section id="gaps" class="section gaps-section">
+        <p class="kicker">WHAT REMAINS UNKNOWN</p>
+        <h2>下一輪研究需要回答的問題</h2>
+        <div class="gaps-grid">
+          <article><b>01</b><p>Phase 3 glycemic efficacy、DKA／severe hypoglycemia 與 treatment discontinuation。</p></article>
+          <article><b>02</b><p>T1D-specific cardiovascular、kidney 與 mortality outcome trials。</p></article>
+          <article><b>03</b><p>Normal-BMI T1D、children／adolescents、older／frail adults 的 net benefit。</p></article>
+          <article><b>04</b><p>Retinopathy、lean mass、nutrition 與 eating-disorder outcomes。</p></article>
+          <article><b>05</b><p>Minimal effective maintenance dose、停藥／重啟與 drug-shortage pathways。</p></article>
+          <article><b>06</b><p>不同 AID systems、meal-bolus strategies 與 continuous ketone monitoring。</p></article>
+        </div>
+        <div class="ongoing-trials">
+          <div><p class="trial-tag">ONGOING PHASE 3</p><h3>SURPASS-T1D-1</h3><p>NCT06914895 · planned n=905 · primary HbA1c change · expected completion 2026-12</p><a href="https://clinicaltrials.gov/study/NCT06914895">ClinicalTrials.gov</a></div>
+          <div><p class="trial-tag">ONGOING PHASE 3</p><h3>SURPASS-T1D-2</h3><p>NCT06962280 · planned n=465 · primary HbA1c change · expected completion 2027-07</p><a href="https://clinicaltrials.gov/study/NCT06962280">ClinicalTrials.gov</a></div>
+        </div>
+        <p class="footnote">截至 2026-09-14 兩項試驗均尚無可用結果；ongoing trial 不得用來支持療效或安全結論。</p>
+      </section>
+
+      <section id="resources" class="section resources-section">
+        <p class="kicker">CLINICAL READING PATH</p>
+        <h2>相關網站與基礎文獻</h2>
+        <div class="resource-groups">
+          <div><h3>核心共識與索引</h3><a href="https://doi.org/10.1177/15209156261449879"><b>2026 Garg consensus</b><span>Publisher / DOI</span></a><a href="https://pubmed.ncbi.nlm.nih.gov/42246488/"><b>PubMed record</b><span>Abstract、authors、MeSH／publication record</span></a><a href="https://github.com/zinojeng/t1d-glp1-consensus-zh-tw/blob/main/REPORT_ZH_TW.md"><b>完整繁中報告</b><span>逐項臨床整理與來源連結</span></a></div>
+          <div><h3>Guidelines／societies</h3><a href="https://github.com/zinojeng/t1d-glp1-consensus-zh-tw/blob/main/research/PROFESSIONAL_SOCIETIES.md"><b>專業學會態度矩陣</b><span>Endorsement、guideline、label 與 reimbursement 的邊界</span></a><a href="https://diabetesjournals.org/care/article/49/Supplement_1/S183/163934/9-Pharmacologic-Approaches-to-Glycemic-Treatment"><b>ADA Standards 2026, Section 9</b><span>T1D insulin 與 noninsulin treatments</span></a><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10200071/"><b>AACE 2022 comprehensive guideline</b><span>T1D insulin、adjunctive medications、technology</span></a><a href="https://www.ispad.org/static/3b8e00b2-9f33-43a5-a84f9eda1accef64/ICPCG-Chapter-9-2024.pdf"><b>ISPAD 2024 adjunctive treatments</b><span>Children and adolescents</span></a><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8481000/"><b>ADA/EASD adult T1D consensus</b><span>Historical comparator for adjunct therapy</span></a></div>
+          <div><h3>Key trials／evidence synthesis</h3><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12003151/"><b>Semaglutide + AID crossover RCT</b><span>Nature Medicine 2025</span></a><a href="https://doi.org/10.1056/EVIDoa2500173"><b>ADJUST-T1D</b><span>NEJM Evidence 2025</span></a><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12719702/"><b>Tirzepatide phase 2 RCT</b><span>Diabetes Care 2026</span></a><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12673429/"><b>13-RCT meta-analysis</b><span>Diabetes, Obesity and Metabolism 2026</span></a></div>
+          <div><h3>Safety／regulatory</h3><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12993733/"><b>OCULUS endoscopy RCT</b><span>Hold vs continue before upper endoscopy</span></a><a href="https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/218316Orig1s000lbl.pdf"><b>FDA Wegovy label</b><span>正式適應症與 safety information</span></a><a href="https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/217806Orig1s020lbl.pdf"><b>FDA Zepbound label</b><span>正式適應症與 safety information</span></a><a href="https://www.fda.gov.tw/tc/includes/GetFile.ashx?cid=44254&amp;id=f638289376695123554"><b>Taiwan FDA Mounjaro information</b><span>台灣主管機關資料</span></a></div>
+        </div>
+      </section>
+
+      <section class="section bottom-line">
+        <p class="kicker">BOTTOM LINE</p>
+        <h2>這份共識最重要的貢獻，是把 off-label reality 轉化為可監測的安全流程。</h2>
+        <p>對合適的 T1D + overweight／obesity 成人，semaglutide 或 tirzepatide 可能降低體重與 insulin burden，並改善部分 glycemic metrics；但它們不取代 insulin，也尚未證明 T1D-specific cardiorenal hard outcomes。成功條件不是「達到最大劑量」，而是 benefit、tolerability、CGM、ketone safety、nutrition、function 與患者偏好取得可持續的平衡。</p>
+      </section>
+    </main>
+  </div>
 
   <footer>
-    <div class="wrap footer-grid"><div><strong>T1D × GLP-1/GIP</strong><p>Evidence cutoff: 2026-09-14 · 臨床與研究教育用途</p></div><div><a href="https://doi.org/10.1177/15209156261449879">原始共識 DOI</a><a href="https://github.com/zinojeng/t1d-glp1-consensus-zh-tw">GitHub repository</a><a href="https://github.com/zinojeng/t1d-glp1-consensus-zh-tw/blob/main/research/SOURCE_LEDGER.md">來源台帳</a></div></div>
+    <div class="wrap footer-grid">
+      <div><strong>T1D × GLP-1/GIP Clinician Evidence Hub</strong><p>Evidence cutoff: 2026-09-14 · 醫療專業教育用途，不取代個別診療。</p></div>
+      <div><a href="https://github.com/zinojeng/t1d-glp1-consensus-zh-tw">GitHub</a><a href="https://github.com/zinojeng/t1d-glp1-consensus-zh-tw/blob/main/research/PROFESSIONAL_SOCIETIES.md">學會矩陣</a><a href="https://github.com/zinojeng/t1d-glp1-consensus-zh-tw/blob/main/research/SOURCE_LEDGER.md">來源台帳</a><a href="https://github.com/zinojeng/t1d-glp1-consensus-zh-tw/blob/main/research/CONFLICT_LEDGER.md">衝突台帳</a></div>
+    </div>
   </footer>
 </body>
 </html>
