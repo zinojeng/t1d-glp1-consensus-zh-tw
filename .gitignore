@@ -1,0 +1,10 @@
+.DS_Store
+.env
+.env.*
+*.key
+*.pem
+*.pdf
+.source-cache/
+tmp/
+site-preview/
+
