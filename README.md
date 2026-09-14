@@ -6,7 +6,7 @@
 
 ## 主要輸出
 
-- [完整繁中專業報告](REPORT_ZH_TW.md)
+- [完整繁中專業報告](REPORT_ZH_TW.md)／[網站閱讀版](https://zinojeng.github.io/t1d-glp1-consensus-zh-tw/report.html)
 - [10 題進階學術 Q&A](QA_ZH_TW.md)
 - [專業學會態度矩陣](research/PROFESSIONAL_SOCIETIES.md)
 - [來源台帳](research/SOURCE_LEDGER.md)與[衝突台帳](research/CONFLICT_LEDGER.md)
@@ -17,6 +17,6 @@
 
 Codex 擔任 director／唯一 Git writer；三個 Claude Code session 分別扮演成人內分泌、evidence methodology、safety/special-populations reviewer，依共同 brief、固定 source checksum、單一檔案寫入範圍與跨角色 challenge 完成審閱。來源優先使用原始論文、PubMed Central open-access 全文、ClinicalTrials.gov 與主管機關標示。
 
-公開網站已依臨床閱讀路徑重整為：背景與原文架構、證據矩陣、候選者、起始與追蹤、insulin adjustment、AID nuances、安全議題、特殊族群、學會態度、方法學、研究缺口、專業型臨床 QA 與延伸資源。
+公開網站已依臨床閱讀路徑重整為：背景與原文架構、證據矩陣、候選者、起始與追蹤、insulin adjustment、AID nuances、安全議題、特殊族群、學會態度、方法學、研究缺口、專業型臨床 QA 與延伸資源。完整繁中報告另有站內閱讀頁，不需跳轉 GitHub。
 
 本專案特別公開兩項原始共識內部問題：ketone threshold 的 mmol/L 換算誤植，以及 graphical abstract 與正文 peri-procedural recommendation 的不一致。詳見[衝突台帳](research/CONFLICT_LEDGER.md)。
